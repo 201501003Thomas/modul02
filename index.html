@@ -1,9 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Belajar HTML</title>
+    <title>Belajar HTML Modul 2</title>
 </head>
-<body background="">
-    
+<body background="blue.jpg" bgcolor="cyan" text="black" link="gray" vlink="red" alink="yellow" topmargin="10px">
+    Text Biasa
+    <a href="#">Link Kosong</a>
+    <p>Ini Paragraf satu</p>
+    <p>Yang ini Paragraf dua</p>
+    <br>
+    <p><em>Tulisan Miring</em> <strong>Tulisan Tebal</strong></p>
+    <h1>Ini Heading 1</h1>
+    <h2>Ini Heading 2</h2>
+    <h3>Ini Heading 3</h3>
+    <h4>Ini Heading 4</h4>
+    <h5>Ini Heading 5</h5>
+    <h6>Ini Heading 6</h6>
+    <font size="10pt" face="Consolas" color="gold">
+        ini text dengan font Consolas
+    </font>
+    <img src="logohtml.png" height="10%" width="10%" alt="Gambar Tidak ada">
+    <b></b>
+    <i></i>
+    <u></u>
+    <s></s>
+    <br>NHO<sub>3</sub><br>3.14x10<sup>-3</sup>
+    <h1 align="center">Garis Aja</h1>
+    <hr size="5" color="magenta" width="50%" height="2">
+    <marquee behavior="scroll" bgcolor="cyan" direction="right"><a href="http://web.stikomyos.ac.id">Humanis</a></marquee>
+    <marquee behavior="slide" bgcolor="cyan"><a href="http://web.stikomyos.ac.id">dan</a></marquee>
+    <marquee behavior="alternate" bgcolor="cyan"><a href="http://web.stikomyos.ac.id">Berwawasan Lingkungan</a></marquee>
+    <p>
+   	<ol>
+   		<li>Kampus</li>
+   		<li>Humanis</li>
+   		<li>Unggul</li>
+   	</ol>
+   	<ul>
+   		<li>Berwawasan Lingkungan</li>
+   		<li>Cyber Kampus Ramah</li>
+   		<li>Profesional</li>
+   	</ul>
+   	<dl>
+   		<dd>Karang Kelesem</dd>
+   		<dd>SMP 5</dd>
+   		<dd>028123456</dd>
+   	</dl>
+   	<h1>Tabel Kampus Berwawasan Lingkungan</h1>
+   	<table border="1">
+   		<th colspan="3">Kampus Berwawasan Lingkungan</th>
+   		<tr>
+   			<td colspan="2">
+   				Sejuk
+   			</td>
+   			<td colspan="1">Nyaman</td>
+   		</tr>
+   		<tr>
+   			<td colspan="3">
+   				Tabel dalam tabel
+   			</td>
+   		</tr>
+   		<tr>
+   			<td colspan="3">
+	   			<table border="1" bgcolor="blue" text="black">
+	   				<th>Ini Tabel</th>
+	   				<tr>
+	   					<td>Tabel</td>
+	   				</tr>
+	   			</table>
+   			</td>
+   		</tr>
+   	</table>
+   	<hr size="5" color="yellow" width="50%" height="2">
+   	<h1 align="center">INI BAGIAN FORM</h1>
+   	<hr size="5" color="yellow" width="50%" height="2">
+   	
+   	<form action="#" method="get">
+   		<table border="1" align="center" bgcolor="yellow">
+   			<tr>
+   				<td><label for="nama">Nama :</label></td>
+   				<td><input type="text" name="nama" id="nem" value="Test"></td>
+   			</tr>
+   			<tr>
+   				<td>
+   					<label for="sem">Semester :</label>
+   				</td>
+   				<td>
+   					<select name="sem" id="semes" size="2">
+			   			<option value="I" selected>I</option>
+			   			<option value="II">II</option>
+			   			<option value="III">III</option>
+			   			<option value="IV">IV</option>
+			   			<option value="V">V</option>
+			   			<option value="VI">VI</option>
+			   			<option value="VII">VII</option>
+			   			<option value="VIII">VIII</option>
+			   			<option value="?">?</option>
+			   		</select>
+   				</td>
+   			</tr>
+   			<tr>
+   				<td>
+   					<label for="txarea">Pesan Pesan :</label>
+   				</td>
+   				<td>
+   					<textarea name="txarea" cols="10" rows="5">HAHA</textarea>
+   				</td>
+   			</tr>
+   			<tr>
+   				<td><label for="jk">Jenis Kelamin :</label></td>
+   				<td><input type="radio" name="jk" value="Pria">Pria<input type="radio" name="jk" value="Wanita" checked="">Wanita</td>
+   			</tr>
+   			<tr>
+   				<td><label for="ckbox">Hobi :</label></td>
+   				<td><input type="checkbox" name="ckbox" value="Main" checked="">Main<input type="checkbox" name="ckbox" value="Makan">Makan<input type="checkbox" name="ckbox" value="lainnya">Lainnya</td>
+   			</tr>
+   			<tr>
+   				<td><label for="pwd">Password</label></td>
+   				<td><input type="password" name="pwd" value="Test"></td>
+   			</tr>
+   			<tr>
+   				<td><input type="submit" name="sub" value="Masukan"></td>
+   				<td><input type="reset" name="rest" value="Reset"></td>
+   			</tr>
+   		</table>
+   	</form>
 </body>
 </html>
